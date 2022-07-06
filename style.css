@@ -5,15 +5,13 @@ body{
 h1{
     font-size: 50px;
     color: white;
-    padding-top: 100px;
-    margin: 0% 25%;
+    padding-top: 150px;
+    margin: auto;
     font-weight: bold;
 }
 h2{
     font-size: 35px;
-    margin-top: 100px;
     text-align: center;
-    font-weight: bold;
 }
 h3{ 
     font-size: 25px;
@@ -23,8 +21,7 @@ h3{
 p{  
     color: #707070;
     text-align: center;
-    padding: 0% 30%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #exclusive-color{
     color: white;
@@ -32,6 +29,15 @@ p{
 #selected-area{
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
+}
+#w-1{
+    background-color: #EDF5F6;
+}
+#w-2{
+    background-color: #FFEEEE;
+}
+#w-3{
+    background-color: #FFF4D6;
 }
 .topSection{
     width: 100%;
@@ -42,13 +48,20 @@ p{
     text-align: center;
 }
 .btn{
-    align-content: center;
-    text-decoration: none;
+    display: block;
     padding: 15px 20px;
-    color: white;
     background-color: tomato;
     font-weight: bold;
     border-radius: 5px;
+    margin: auto;
+    border: none;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+}
+.donate-area{
+    width: 100%;
 }
 .donate-h1{
     display: flex;
@@ -63,6 +76,25 @@ p{
     border-radius: 5px;
     background-color: whitesmoke;
 }
-.donate-h2 p{
-    text-decoration-line: underline;
+.rule-customize{
+    width: 56%;
 }
+.flex-container{
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+}
+.w-25{
+    width: 25%;
+    margin-left: 1%;
+    margin-right:1%;
+    padding: 2% 1%;
+}
+.flex-container h3{
+    color: black;
+    text-align: left;
+}
+.flex-container p{
+    text-align: left;
+}
+
